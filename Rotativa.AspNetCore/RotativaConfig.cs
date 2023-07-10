@@ -29,7 +29,7 @@ namespace Rotativa.AspNetCore
         /// <param name="wkhtmltopdfRelativePath">Optional. Relative path to the directory containing wkhtmltopdf.exe. Default is "Rotativa". Download at https://wkhtmltopdf.org/downloads.html</param>
         public static void Setup(IWebHostEnvironment env, string wkhtmltopdfRelativePath = "Rotativa") 
         {
-            var rotativaPath = Path.Combine(env.WebRootPath, wkhtmltopdfRelativePath);
+            var rotativaPath = Path.Combine(env.ContentRootPath, wkhtmltopdfRelativePath);
 
             if (!Directory.Exists(rotativaPath))
             {
