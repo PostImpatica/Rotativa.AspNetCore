@@ -7,8 +7,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
 using Rotativa.AspNetCore.Options;
-using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
 namespace Rotativa.AspNetCore
