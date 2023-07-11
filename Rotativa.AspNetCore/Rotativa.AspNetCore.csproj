@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <RepositoryUrl>https://github.com/PostImpatica/Rotativa.AspNetCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/webgio/Rotativa.AspNetCore</PackageProjectUrl>
